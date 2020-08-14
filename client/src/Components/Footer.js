@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./style.css"
 var style = {
     fontSize: "12px",
     left: "0",
