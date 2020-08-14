@@ -4,6 +4,8 @@ import './App.css';
 import Home from './Pages/Home';
 import Nav from "./Components/Nav";
 import Footer from "./Components/Footer";
+import Wrapper from './Components/Wrapper';
+
 
 
 function App() {
