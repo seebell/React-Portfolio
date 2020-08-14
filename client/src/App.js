@@ -5,6 +5,8 @@ import Home from './Pages/Home';
 import Nav from "./Components/Nav";
 import Footer from "./Components/Footer";
 import Wrapper from './Components/Wrapper';
+import Portfolio from "./Pages/Portfolio";
+import Contact from "./Pages/Contact";
 
 
 
@@ -15,6 +17,8 @@ function App() {
           <Nav/>
             <Route exact path="/" component={Home} />
             <Route exact path="/home" component={Home} />
+            <Route exact path="/portfolio" component={Portfolio} />
+            <Route exact path="/contact" component={Contact} />
           </BrowserRouter>
           <Footer>
             <p> © Sibel Cidem 2020 </p>
