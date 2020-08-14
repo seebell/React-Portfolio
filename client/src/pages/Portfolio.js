@@ -3,22 +3,22 @@ import "./style.css";
 
 import Container from "../Components/Container"
 import Row from "../Components/Row"
-import PortfolioCard from "../Components/PortfolioCards"
+import PortfolioCard from "../Components/PortfolioCard"
 import Jumbotron from "../Components/Jumbotron";
 import Column4 from "../Components/Column4";
 
-import burger400Img from "../images/burger400.JPG"
-import codingImg from "../images/coding.JPG";
-import dayplannerImg from "../images/dayplanner.JPG";
-import emptrackerImg from "../images/notetaker.JPG";
-import notetakerImg from "../images/QuizTime.JPG";
-import pgImg from "../images/pg.JPG";
-import pts400Img from "../images/pts400.JPG";
+import burger400Img from "../images/burger400.jpg"
+import codingImg from "../images/coding.jpg";
+import dayplannerImg from "../images/dayplanner.jpg";
+import emptrackerImg from "../images/emptracker.jpg";
+import notetakerImg from "../images/notetaker.jpg";
+import pgImg from "../images/pg.jpg";
+import pts400Img from "../images/pts400.jpg";
 import qkImg from "../images/qk.jpg";
-import readmeImg from "../images/readme.JPG";
-import temp4Img from "../images/temp4.JPG";
-import wdImg from "../images/wd.JPG";
-import wt1Img from "../images/wt1.PNG";
+import readmeImg from "../images/readme.jpg";
+import temp4Img from "../images/temp4.jpg";
+import wdImg from "../images/wd.jpg";
+import wt1Img from "../images/wt1.png";
 
 function Portfolio(){
     

@@ -1,6 +1,7 @@
 import React from "react";
 import Container from "../Components/Container";
 import Jumbotron from "../Components/Jumbotron";
+import Row from "../Components/Row";
 import Column4 from "../Components/Column4";
 
 
@@ -19,14 +20,12 @@ function Contact(){
         
                 <Row>
                     <Column4>
-                    <a href="https://www.linkedin.com/in/sibel-cidem-b7487a197/"></a>
+                    <a href="https://www.linkedin.com/in/sibel-cidem-b7487a197/">Linkedin</a>
                     </Column4>
                     <Column4>
-                    <a href="https://github.com/seebell"></a>
+                    <a href="https://github.com/seebell">Github</a>
                     </Column4>
-                    <Column4>
-                    <a href="#"></a>
-                    </Column4>
+            
                 </Row>
                 <Row>
                     <Column4>
@@ -37,10 +36,7 @@ function Contact(){
                     <a href="https://github.com/seebell" 
                     target="_blank" rel="noopener noreferrer">Find me on GitHub</a>
                     </Column4>
-                    <Column4>
-                    <a href="#"></a>
-                   
-                    </Column4>
+                
                 </Row>
                 <br/>
                 <br/>

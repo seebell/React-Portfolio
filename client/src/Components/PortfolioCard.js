@@ -5,7 +5,7 @@ import "./style.css";
 function PortfolioCard(props){
     return(
                 <div className= "sibel-stock">
-                    <a href={props.imgLink} target="blank">        
+                    <a href={props.imgLink} target="blank">      
                     <img alt="icon"  className= "imgSz rounded mx-auto d-block"  alt="clip of app" 
                     src={props.src} 
                     />

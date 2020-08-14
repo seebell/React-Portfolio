@@ -1,5 +1,10 @@
 import React from "react";
+import "./style.css";
+import profilePic from "../images/sip5.png";
 import Container from "../Components/Container";
+import Row from "../Components/Row";
+import Column4 from "../Components/Column4";
+import SkillCard from "../Components/SkillCard";
 
 function Home(){
     
