@@ -1,4 +1,4 @@
-import React from "react";
+import React from "./node_modules/react";
 import "./style.css";
 import profilePic from "../images/sip5.png";
 import Container from "../Components/Container";

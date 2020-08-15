@@ -1,5 +1,6 @@
   
 import React from "react";
+import { Link } from "react-router-dom";
 
 
 function Nav(){
@@ -10,20 +11,20 @@ function Nav(){
 
             <nav className="navbar navbar-dark bg-dark">
 
-                <h2> <a href= "/">Sibel Cidem</a></h2>
+                <h2> <Link to="/">Sibel Cidem</Link></h2>
 
                 <ul className="nav nav-tabs">
                     <li>
-                        <a className="nav-link" href="/home">About Me</a>
+                        <Link className="nav-link" to="/home">About Me</Link>
                     </li>
                     <li>
-                        <a className="nav-link" href="/portfolio">Portfolio</a>
+                        <Link className="nav-link" to="/portfolio">Portfolio</Link>
                     </li>
                     <li>
-                        <a className="nav-link inactive" href="/contact">Contact Me</a>
+                        <Link className="nav-link inactive" to="/contact">Contact Me</Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="https://www.linkedin.com/in/sibel-cidem-b7487a197/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                        <Link className="nav-link" to="https://www.linkedin.com/in/sibel-cidem-b7487a197/" target="_blank" rel="noopener noreferrer">LinkedIn</Link>
                     </li>
                     
                 </ul>
