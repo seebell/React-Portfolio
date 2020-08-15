@@ -15,7 +15,7 @@ npm i
 
 ## Link for deployed app
 
-https://polar-journey-45900.herokuapp.com/
+https://sheltered-plateau-92372.herokuapp.com/
 
 ## License
 
