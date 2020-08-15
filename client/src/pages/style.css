@@ -126,3 +126,19 @@ p{
     text-align:center;
     top:10px;
 }
+
+.contactText {
+    font-size:35px;
+    color: magenta;
+
+}
+.contactText2 {
+    font-size:35px;
+    color: purple;
+
+}
+.row1 {
+    margin-top: 75px;
+    
+    justify-content: center;
+}

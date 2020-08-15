@@ -3,10 +3,12 @@ import Container from "../Components/Container";
 import Jumbotron from "../Components/Jumbotron";
 import Row from "../Components/Row";
 import Column4 from "../Components/Column4";
+import Footer from "../Components/Footer";
 
 
 function Contact() {
     return (
+        <>
         <Container>
             <br />
             <Jumbotron text="Contact Me" />
@@ -18,38 +20,46 @@ function Contact() {
                     <div className="row">
                         <div className="col-lg">
 
-                    
+
                             <Row>
                                 <Column4>
                                     <a href="https://www.linkedin.com/in/sibel-cidem-b7487a197/"
-                                        target="_blank" rel="noopener noreferrer">Find me on LinkedIn</a>
+                                        target="_blank" rel="noopener noreferrer" className="contactText">Find me on LinkedIn</a>
                                 </Column4>
+                                <Column4></Column4>
                                 <Column4>
                                     <a href="https://github.com/seebell"
-                                        target="_blank" rel="noopener noreferrer">Find me on GitHub</a>
+                                        target="_blank" rel="noopener noreferrer" className="contactText2">Find me on GitHub</a>
                                 </Column4>
 
                             </Row>
-                            <br />
+                        </div>
+                        <br></br>
+                        <br></br>
+                        <div className="row1">
+                        <div className="col-lg-12">
                             <Row>
-                                
-                                <p>My phone number: +1 305-942-4137</p>
-                                
+
+                                <p className="contactText">My phone number: +1 305-942-4137</p>
+
                             </Row>
-                            
+                            <br>
+                            </br>
                             <Row>
-                                <p>For any questions; email me at <a href="mailto:sibelcidem@gmail.com">sibelcidem@gmail.com</a></p>
+                                <p className="contactText">For any questions; email me at <a href="mailto:sibelcidem@gmail.com">sibelcidem@gmail.com</a></p>
                             </Row>
 
 
+                        </div>
                         </div>
                     </div>
                 </div>
             </div>
 
         </Container>
-
+        <Footer />
+     </>
     )
 }
 
-export default Contact
+export default Contact;

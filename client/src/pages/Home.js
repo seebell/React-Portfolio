@@ -19,8 +19,16 @@ function Home(){
                     <img className="sibel-photo" alt="profile" src={profilePic}/>
 
                     <h3> About Me</h3>
-                <p>
+                <p>Solution-driven Full Stack Web Developer with 6 years of analytical experience; proven
+                management, sales and coaching skills. Abilities of working under pressure, meeting deadlines
+                and adapting new conditions quickly.
+
                    </p>
+
+                   <p>
+                                    <a href="https://seebell.github.io/assets/images/latestResume.pdf" target="_blank"
+                                class="btn btn-outline-white linkcolor px-4 py-3">Click here to view my Resume</a> 
+                                </p>
 
                 </div>
 
@@ -29,11 +37,12 @@ function Home(){
                 <Column4>
                     <SkillCard
                     heading="Languages, Environment, Frameworks"
-                    bullet1="JavaScript"
+                    bullet1="JavaScript, Jquery"
                     bullet2="HTML/CSS"
                     bullet3="React"
                     bullet4="Node"
-                    bullet5="Jquery"
+                    bullet5="Express/ES6"
+            
                     />
                 </Column4>
 
