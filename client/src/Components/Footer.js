@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./style.css"
 var style = {
     fontSize: "12px",
+    color: "magenta",
     left: "0",
     bottom: "0",
     height: "45px",

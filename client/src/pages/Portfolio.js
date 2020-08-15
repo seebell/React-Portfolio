@@ -19,6 +19,7 @@ import readmeImg from "../images/readme.jpg";
 import temp4Img from "../images/temp4.jpg";
 import wdImg from "../images/wd.jpg";
 import wt1Img from "../images/wt1.png";
+import empdirImg from "../images/empdir.png";
 
 function Portfolio(){
     
@@ -87,7 +88,15 @@ function Portfolio(){
                 hrefRepo="https://github.com/seebell/Eat-Da-Burger"
                 />
                 </Column4>
-
+                <Column4>
+                <PortfolioCard
+                src={empdirImg} 
+                href="https://seebell.github.io/Employee-Directory/"
+                imgLink="https://seebell.github.io/Employee-Directory/"
+                text="Employee Directory"
+                hrefRepo="https://github.com/seebell/Employee-Directory"
+                />
+                </Column4>
             </Row>
 
             <Row>
@@ -170,7 +179,8 @@ function Portfolio(){
                 />
                 </Column4>
 
-            </Row>          
+            </Row>   
+                           
 
             </div>
         
