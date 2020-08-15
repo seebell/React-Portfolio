@@ -73,3 +73,7 @@ p{
     
     justify-content: center;
 }
+.btn {
+    color:magenta;
+    font-size: 25px;
+}
