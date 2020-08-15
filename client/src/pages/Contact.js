@@ -1,4 +1,4 @@
-import React from "./node_modules/react";
+import React from "react";
 import Container from "../Components/Container";
 import Jumbotron from "../Components/Jumbotron";
 import Row from "../Components/Row";

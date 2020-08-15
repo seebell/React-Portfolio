@@ -24,7 +24,7 @@ function Nav(){
                         <Link className="nav-link inactive" to="/contact">Contact Me</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" to="https://www.linkedin.com/in/sibel-cidem-b7487a197/" target="_blank" rel="noopener noreferrer">LinkedIn</Link>
+                        <a className="nav-link" href="https://www.linkedin.com/in/sibel-cidem-b7487a197/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                     </li>
                     
                 </ul>
