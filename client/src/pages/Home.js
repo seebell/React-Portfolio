@@ -40,9 +40,9 @@ function Home(){
                 <Column4>
                     <SkillCard
                     heading="Databases"
-                    bullet1="Oracle"
-                    bullet2="MongoDB/Moongoose"
-                    bullet3="MySQL/Sequelize"
+            
+                    bullet1="MongoDB/Moongoose"
+                    bullet2="MySQL/Sequelize"
                     />
                 </Column4>
 

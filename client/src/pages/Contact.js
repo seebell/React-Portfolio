@@ -5,54 +5,50 @@ import Row from "../Components/Row";
 import Column4 from "../Components/Column4";
 
 
-function Contact(){
-    return(
-           <Container>
-               <br/>
-               <Jumbotron text="Contact Me"/>
-            <br/>
+function Contact() {
+    return (
+        <Container>
+            <br />
+            <Jumbotron text="Contact Me" />
+            <br />
             <div id="contactLinks" className="row">
-            
-            <div className="col-lg-9">
-            <br/>
-            <div className="row">
-            <div className="col-lg">
-        
-                <Row>
-                    <Column4>
-                    <a href="https://www.linkedin.com/in/sibel-cidem-b7487a197/">Linkedin</a>
-                    </Column4>
-                    <Column4>
-                    <a href="https://github.com/seebell">Github</a>
-                    </Column4>
-            
-                </Row>
-                <Row>
-                    <Column4>
-                    <a href="https://www.linkedin.com/in/sibel-cidem-b7487a197/" 
-                    target="_blank" rel="noopener noreferrer">Find me on LinkedIn</a> 
-                    </Column4>
-                    <Column4>
-                    <a href="https://github.com/seebell" 
-                    target="_blank" rel="noopener noreferrer">Find me on GitHub</a>
-                    </Column4>
-                
-                </Row>
-                <br/>
-                <br/>
-                <br/>
-                <Row>
-                    <p>For any questions; email me at <a href="mailto:sibelcidem@gmail.com">sibelcidem@gmail.com</a></p>
-                </Row>
-        
-                                                            
-            </div> 
-            </div>  
-            </div>
-        </div>
 
-        </Container> 
-      
+                <div className="col-lg-9">
+                    <br />
+                    <div className="row">
+                        <div className="col-lg">
+
+                    
+                            <Row>
+                                <Column4>
+                                    <a href="https://www.linkedin.com/in/sibel-cidem-b7487a197/"
+                                        target="_blank" rel="noopener noreferrer">Find me on LinkedIn</a>
+                                </Column4>
+                                <Column4>
+                                    <a href="https://github.com/seebell"
+                                        target="_blank" rel="noopener noreferrer">Find me on GitHub</a>
+                                </Column4>
+
+                            </Row>
+                            <br />
+                            <Row>
+                                
+                                <p>My phone number: +1 305-942-4137</p>
+                                
+                            </Row>
+                            
+                            <Row>
+                                <p>For any questions; email me at <a href="mailto:sibelcidem@gmail.com">sibelcidem@gmail.com</a></p>
+                            </Row>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </Container>
+
     )
 }
 
