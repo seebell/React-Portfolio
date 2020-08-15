@@ -1,5 +1,5 @@
 import React from 'react';
-import {Route, BrowserRouter} from "react-router-dom";
+import {BrowserRouter as Router, Route} from "react-router-dom";
 import './App.css';
 import Home from './Pages/Home';
 import Nav from "./Components/Nav";
@@ -13,13 +13,13 @@ import Contact from "./Pages/Contact";
 function App() {
   return (
     <Wrapper>
-          <BrowserRouter>
+          <Router>
           <Nav/>
             <Route exact path="/" component={Home} />
             <Route exact path="/home" component={Home} />
             <Route exact path="/portfolio" component={Portfolio} />
             <Route exact path="/contact" component={Contact} />
-          </BrowserRouter>
+          </Router>
           <Footer>
             <p> © Sibel Cidem 2020 </p>
           </Footer>
